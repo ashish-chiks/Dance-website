@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo img{
+    height:30px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar{
+    background-color: black;
+    padding: 13px 4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+    font-size: 20px;
+}
+
+#navbar li a:hover{
+    color: rgba(236, 99, 99, 0.664);
+}
+
+#footer{
+    height: 50px;
+    background-color: black;
+    color: rgb(196, 196, 187);
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000 center/cover url(img/contactbg.jpeg) no-repeat; 
+    height: 600px;
+}
+
+.myInput{
+    font-size: 16px;
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid #9d8e8e;
+    border-radius: 12px;
+}
+
+.textarea{
+    height: 100px;
+}
+
+.btn{
+    margin: 15px 0px;
+    color: blue;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(235, 234, 178);
+    border: 2px solid black;
+    font-weight: bold;
+
+}

@@ -1,0 +1,17 @@
+extends base.pug
+
+block scripts
+    script(src="scripts/contacts.js")
+
+block style 
+    style
+      include ../static/styles/styleContacts.css
+
+block content 
+    H1 Fill the details.
+    form(action= "/contact", method= "post", class= "myForm")
+        input(type="text" class="myInput" name="name" placeholder="Enter your name...")
+        input(type="phone" class="myInput" name="phone" placeholder="Enter your mobile...")
+        input(type="email" class="myInput" name="email" placeholder="Enter your email...")
+        textarea(type="text" class="myInput textarea" name="query" placeholder="Your query...")
+        input(type="submit" class="btn" href="/contact")

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo img{
+    height: 40px;
+    width: 40px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar{
+    background-color: black;
+    padding: 13px 4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+    font-size: 20px;
+}
+
+#navbar li a:hover{
+    color: rgba(236, 99, 99, 0.664);
+}
+
+#introSection{
+    background: #000 center/cover url(img/introbg.jpg) no-repeat;
+    height: 600px;
+    background-color: rgb(49, 18, 136);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#introSection .title{
+    padding: 50px 10px;
+    font-size: 60px;
+    font-family: 'Limelight', cursive;
+}
+
+#introSection .small{
+    color: #99123b;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#missionSection{
+    height: 300px;
+    background-color: rgb(232, 236, 183);
+    border: 10px solid black;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: rgb(182, 168, 190);
+}
+
+#sponsorsSection img{
+    height: 200px;
+    width: 350px;
+    padding: 20px 30px;
+    display: inline-block;
+}
+
+#footer{
+    height: 50px;
+    background-color: black;
+    color: rgb(196, 196, 187);
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+#mission{
+    font-size: 30px;
+    padding-top: 7px;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 50px;
+}
+
+#sponsors{
+    font-size: 30px;
+    padding-top: 7px;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 50px;
+}
+
+.card{
+    border: 2px solid rgb(85, 4, 15);
+    width: 29%;
+    height: 200px;
+    display: inline-block;
+    margin: 10px 32px;
+    padding: 5px;
+    border-radius: 45px;
+    background-color: skyblue;
+}
+
+.card-title{
+    padding-left: 35px;
+    padding-bottom: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color:rgba(25, 23, 105, 0.664);
+    font-weight: bold;
+}
+
+.card-content{
+    padding-left: 30px;
+    padding-right: 20px;
+    font-family: 'Caveat', cursive;
+    font-size: 23px;
+
+}

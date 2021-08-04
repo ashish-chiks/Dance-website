@@ -1,0 +1,35 @@
+extends base.pug
+
+block scripts
+    script(src="scripts/index.js")
+
+block style 
+    style
+      include ../static/styles/style.css
+
+block content 
+    section#introSection
+        div.title Welcome to Phoenix Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+        p#mission Our Mission...
+
+        div.card
+            p.card-title Dance Culture in India ...
+            p.card-content India is rich country in terms of culture and heritage. And luckily we have vast diversity of dance forms with us. And to justify that, we have classes of every single dance form.  
+        div.card
+            p.card-title New way of life ...
+            p.card-content We will try to merge dance into your life as a lifelong partner which will always make you happy. A small session of dance can keep a man free from stress and even depression.
+
+        div.card
+            p.card-title Dance as a career ... 
+            p.card-content Not only that, dance in India now have became a voluntary career stream. We had a lot of great dancers from our academy. Maybe you will be next one.
+                
+    section#sponsorsSection
+        p#sponsors Our Sponsors...
+
+        img(src="img/mslogo.jpg")
+        img(src="img/didlogo.jpg")
+        img(src="img/remologo.jpg")
+        img(src="img/terencelogo.jpg")

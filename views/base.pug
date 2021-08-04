@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Phoenix Dance academy
+    block style
+  body
+    nav#navbar
+          ul
+              div#logo 
+                img(src="img/dancelogo.jpg")
+              li #[a(href="/") Home]
+              li #[a(href="/about") About]
+              li #[a(href="/services") Services]
+              li #[a(href="/class") Class Info]
+              li #[a(href="/contact") Contact Us]
+
+    block content
+    footer#footer
+        | Copyright © 2020 Ashish Chhikara |
+        | All Rights Reserved.
+    block scripts
